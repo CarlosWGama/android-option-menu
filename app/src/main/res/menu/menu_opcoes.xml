@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bt_buscar"
+        android:icon="@drawable/ic_search"
+        android:title="Buscar"
+        app:actionLayout="@layout/menu_busca"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item
+        android:id="@+id/bt_adicionar"
+        android:icon="@drawable/ic_add"
+        android:title="Adicionar"
+        app:showAsAction="always|withText"></item>
+    <item
+        android:id="@+id/bt_usuario"
+        android:title="Usuário">
+        <menu>
+            <item
+                android:id="@+id/bt_usuario_perfil"
+                android:title="Perfil" />
+            <item
+                android:id="@+id/bt_usuario_editar"
+                android:title="Editar" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/bt_configuracoes"
+        android:title="Configurações" />
+    <item
+        android:id="@+id/bt_sair"
+        android:title="Sair" />
+</menu>
